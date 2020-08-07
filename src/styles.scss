@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 40px;
+    background-color: #e9e9e9;
+    border-radius: 30px;
+    }
+
+    .search_input{
+    color: rgb(10, 10, 10);
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 250px;
+    caret-color:rgb(226, 226, 226);
+    transition: width 0.4s linear;
+    }
+
+    // .searchbar:hover > .search_icon{
+    // background: white;
+    // color: #e74c3c;
+    // }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    text-align: center;
+    }
+
+    .search_icon{color: #222E50 !important}
+
+    .white-box{cursor:pointer;box-shadow: 6px 8px 14px rgba(173, 173, 173, 0.82);
+        border-radius: 4px;
+        transition: 0.2s ease;
+    }
+    .white-box:hover {
+        transform: translateY(-5px);
+    }
+    .list-group-item {
+        font-weight: bold;
+        font-size: 1rem;
+        background: #222E50 !important;
+        color: #fff !important;
+    }
+
+    .single-top-catagory {
+        height: 250px;
+    }
+
+    .loading{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .discover-categories .insta-feeds .single-insta-feeds .insta-icon {
+        background-color: #222e50d0 !important;
+    }
+    .cursor-pointer{
+        cursor: pointer;
+    }
